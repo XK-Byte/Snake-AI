@@ -43,7 +43,7 @@ LEFT = (-1, 0)
 RIGHT = (1, 0)
 
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption(f"AI 贪吃蛇 - SAC 算法  {device}")
+pygame.display.set_caption(f"AI 贪吃蛇 - {device}")
 clock = pygame.time.Clock()
 
 font_small = pygame.font.SysFont('OPPO Sans 4.0', 16)
@@ -443,7 +443,7 @@ agent = SACAgent(state_dim, action_dim)
 replay_buffer = ReplayBuffer(capacity=4000000)
 
 episodes = 1000
-batch_size = 2048  # 增大批大小以利用GPU并行性
+batch_size = 2048  
 update_interval = 4
 max_steps = 1000
 
