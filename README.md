@@ -27,7 +27,7 @@ An AI-powered Snake game implementation using the Soft Actor-Critic (SAC) reinfo
 
 ## Requirements
 
-- Python 3.8+
+- Python 3.10+
 - PyTorch (with CUDA if available)
 - Pygame
 - NumPy
@@ -36,14 +36,10 @@ An AI-powered Snake game implementation using the Soft Actor-Critic (SAC) reinfo
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/ai-snake-sac.git
-   cd ai-snake-sac
+   git clone https://github.com/XK-Byte/Snake-AI.git
+   cd Snake-AI
    ```
 
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ## Usage
 
@@ -141,14 +137,11 @@ MIT License
 
 1. 克隆仓库:
    ```bash
-   git clone https://github.com/yourusername/ai-snake-sac.git
-   cd ai-snake-sac
+   git clone https://github.com/XK-Byte/Snake-AI.git
+   cd Snake-AI
    ```
 
-2. 安装依赖:
-   ```bash
-   pip install -r requirements.txt
-   ```
+
 
 ## 使用说明
 
